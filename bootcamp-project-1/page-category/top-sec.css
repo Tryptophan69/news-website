@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ 
+     
+ }
+ .left-nav{
+         list-style-type: none;
+         margin-left: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: black;
+         color: white;
+         font-family: sans-serif;
+         font-size: 13px;
+ }
+ .left-nav li{
+     float: left;
+     text-align: center;
+     margin: 13px 5px 5px 10px;
+ }
+ .left-nav li:first-child{
+     padding-left: 45px;
+ }
+ 
+ .container-top{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     list-style-type:none ; 
+ }
+ .navbar1{
+     
+     list-style-type: none;
+    width: 100%;
+    float: left;
+    color: #002e5b;
+     font-weight: 500;
+     box-shadow: 5px 10px 8px gray;
+     border-top: 1px solid grey;
+    
+ }
+ .navbar1 li{
+     display: block;
+     float: left;
+     padding: 39px 19px;
+     margin-top: 0px;
+ }
+ .navbar1 a:hover{
+     color: red;
+ }
+ @media   (max-width: 768px) { 
+    .top-nav{
+        display: none;
+    }
+    .container-top{
+        display: none;
+    }
+    .navbar1{
+        display: none;
+    }
+    .navbar{
+        width: 60%;
+        
+    }
+    .div-container1{
+        display: flex;
+        justify-content: center;
+        box-shadow : 5px 10px 8px gray;
+    }
+}
+@media  (min-width: 768px) { 
+    .container-top{
+        max-width: 720px;
+    }
+    .logo1{
+        width: 150px;
+        height: 50.27px;
+    }
+    .logo2{
+        width: 510px;
+        height: 68px;
+    }
+    .navbar1{
+        width: 100%;
+        height: 61px;
+    }
+    .navbar1 li{
+        padding: 20px 15px;
+    }
+   .navbar1 li:first-child{
+    margin-left: 80px;
+   }
+   .div-container1{
+    display:none;
+}
+
+}
+@media (min-width: 992px) { 
+    .container-top{
+        max-width: 960px;
+        justify-content: space-between;
+
+    }
+    .logo1{
+       
+        width: 210px;
+            height: 70.38px;
+            margin-left: 0px;
+    }
+    .logo2{
+        width: 690px;
+        height: 92px;
+    }
+    .navbar1{
+        width: 100%;
+        height: 99px;
+    }
+    .navbar1 li{
+        padding: 39px 15px;
+        
+    }
+    .div-container1{
+        display:none;
+    }
+   
+}
+@media (min-width: 1200px) {
+    .container-top{
+        width: 100%;
+     
+    }
+    .logo1{
+        
+        margin-right: 120px;
+        margin-left:0px ;
+        
+    width: 185px;
+        height: 62px;
+}
+.logo2{
+    margin-left: 0px;
+    width: 750px;
+    height: 100px;
+}
+.navbar1{
+    width: 100%;
+    height: 99px;
+   
+}
+.navbar1 li{
+    padding: 39px 19px;
+}
+.div-container1{
+    display:none;
+}
+
+}
